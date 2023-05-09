@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style>
+        .button {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        function showList() {
+            var simpsons = ['Go', 'Fuck', 'You', 'Self', '!'];
+            for (i = 0; i < simpsons.length; i++) {
+                alert(simpsons[i]);
+            }
+        }
+    </script>
+    <button class='button' value="Show List" onclick="showList();">金亮</button>
+</body>
+
+</html>
